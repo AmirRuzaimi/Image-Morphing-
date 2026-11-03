@@ -72,8 +72,8 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 # read the images
-img1 = cv2.imread("trump.jpg")
-img2 = cv2.imread("kuri.jpg")
+img1 = cv2.imread("Ichigo.jpg")
+img2 = cv2.imread("saitama.jpg")
 
 # Convert images into grayscale
 gray1 = cv2.cvtColor(src=img1, code=cv2.COLOR_BGR2GRAY)
